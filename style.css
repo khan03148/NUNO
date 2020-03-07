@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700&display=swap');
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color:#505962;
+}
+.offset:before {
+  display: block;
+  content: "";
+  height: 3.8rem;
+  margin-top: -4rem;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .12rem;
+  background: rgba(0, 0, 0, 0.5)!important;
+}
+
+.navbar-brand img {
+  height: 2rem;
+
+}
+.navbar-nav li {
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1ebba3;
+}
+
+/* landing page */
+
+.home-inner {
+  background-image: url(img/computers.png);
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index:1;
+  color: white;
+}
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: bold;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1rem;
+}
+.btn-lg {
+  border-width: medium;
+  border-radius:10;
+  padding: .6rem;
+  font-size: 1.1rem;
+}
+ /* course section */
+
+ .narrow {
+   width: 75%;
+   margin: 1.5rem auto;
+   padding-top: 2rem;
+ }
+
+ .narrow h1 {
+   font-size: 2.4rem;
+ }
+ .btn-secondary {
+   border-width: medium;
+   border-radius: 10;
+   text-transform: uppercase;
+   font-size: 1.2rem;
+   padding: .6rem;
+   margin: 1rem;
+   color: white;
+   background-color: #1ebba3;
+   border-color: #1ebba3;
+ }
+
+ .btn-secondary:hover {
+   background-color: #189582;
+   border-color: #1ebba3;;
+ }
+ /* Features section */
+.jumbotron {
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
+}
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+  }
+  .heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: #1ebba3;
+    margin: 0 auto 2rem;
+  }
+
+.features svg.svg-inline--fa {
+  color: #1ebba3;
+}
+.features h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-bottom: .4rem;
+}
+.features p {
+  font-size: 1.1rem;
+}
+/* Resources section */
+.fixed {
+  background-image:url(img/apple.png);
+  
+ 
+}
+.dark {
+  background-color: rgba(0,0,0,0.75);
+  z-index: -1;
+  color: white;
+  padding: 7rem 2rem;
+}
+.fixed-background h3 {
+  margin-bottom: 2rem;
+
+}
+.fixed-background p {
+  margin-top: 1.5rem;
+}
+
+/* client section */
+.clients img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+blockquote .svg-inline--fa {
+  color: #1ebba3;
+  margin: 1rem;
+}
+.clients hr {
+  border-top: .05rem solid #1ebba3;
+}
+
+/* contact section */
+footer {
+  background-color: #40474e;
+  color: white;
+  padding: 2rem 0 2rem;
+  margin-top: 1rem;
+}
+footer img {
+  height: 3rem;
+  margin: 1.5rem 0;
+
+}
+footer a {
+  color: white;
+
+}
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+
+}
+
+footer svg.svg-inline--fa:hover {
+  color: #1ebba3 !important;
+
+}
+hr.socket {
+  width: 100%;
+  border-top: .2rem solid #666b71;
+  margin-top: 3rem;
+}
+
+@media(max-width:767px) {
+  .captio h1 {
+    font-size: 2.3rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+  .caption h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+
+  }
+  .btn-secondary {
+    padding: .5rem 1rem;
+    font-size: .1rem;
+
+  }
+  .narrow h1 {
+    font-size: 1.5rem;
+
+  }
+  .clients img {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  .navbar-nav {
+    text-align: center;
+    background-color: gray;
+  }
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
